@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<script language="JavaScript" type="text/javascript">
+
+function ConnectXML(dname) // Function for opening a XML database file.
+{
+    if (window.XMLHttpRequest)
+    {
+        xhttp= new XMLHttpRequest(); // Connect by httprequest for newest versions of browsers.
+    }
+    else
+    {
+        xhttp= new ActiveXObject("Microsoft.XMLHTTP"); // Connect by httprequest for older versions of browsers.
+    }
+    xhttp.open("GET",dname,false); //Open XML file using the "dname" parameter as source for the file.
+    xhttp.send(); //Sending the file data to xhttp object.
+    return xhttp.responseXML; // Returning a xml response.
+}
+//Searching by title.
+function title_search()
+{
+
+xmlDoc = ConnectXML("Database.xml"); //Getting response from the the function.
+var x= xmlDoc.getElementsByTagName("dc:title"); //Assigning all tags with <dc:title>.
+var input = document.getElementById("input1").value; //Get the input from the user.
+var size =input.length;
+if(input == null || input == ""){ //Check if input is not entered.
+    document.getElementById("results_title").innerHTML="Please enter a charachter or a name";
+    return false;
+}
+
+for( i=0; i<x.length; i++) //loop to find the input and print its metadata.
+{
+    tit =xmlDoc.getElementsByTagName("dc:title")[i].childNodes[0].nodeValue;
+    startString = tit.substring(0,size);
+    if(startString.toLowerCase() == input.toLowerCase()){
+            title =xmlDoc.getElementsByTagName("dc:title")[i].childNodes[0].nodeValue;
+            creator =xmlDoc.getElementsByTagName("dc:creator")[i].childNodes[0].nodeValue;
+            contributor =xmlDoc.getElementsByTagName("dc:contributor")[i].childNodes[0].nodeValue;
+            subject =xmlDoc.getElementsByTagName("dc:subject")[i].childNodes[0].nodeValue;
+            publisher =xmlDoc.getElementsByTagName("dc:publisher")[i].childNodes[0].nodeValue;
+            date =xmlDoc.getElementsByTagName("dc:date")[i].childNodes[0].nodeValue;
+            type =xmlDoc.getElementsByTagName("dc:type")[i].childNodes[0].nodeValue;
+            divText = "<h1>Book metadata for that title is:</h1><br/><table border=1><tr><th>title</th><th>creator</th><th>contributor</th><th>subject</th><th>publisher</th><th>date</th><th>type</th></tr>" + "<tr><td>" + title + "</td><td>" + creator + "</td><td>" + contributor + "</td><td>" + subject + "</td><td>" + publisher + "</td><td>" + date + "</td><td>" + type + "</td></tr>" + "</table>";
+            break;
+    }
+    else
+    {
+        divText="<h2>The book does not exist.</h2>";
+    }
+}
+document.getElementById("results_title").innerHTML=divText;
+}
+// Searching by creator/Author.
+function creator_search()
+{
+
+xmlDoc = ConnectXML("Database.xml");
+var x= xmlDoc.getElementsByTagName("dc:creator");
+var input = document.getElementById("input2").value;
+var size =input.length;
+if(input == null || input == ""){
+    document.getElementById("results_creator").innerHTML="Please enter a charachter or a name";
+    return false;
+}
+
+for( i=0; i<x.length; i++)
+{
+    auth =xmlDoc.getElementsByTagName("dc:creator")[i].childNodes[0].nodeValue
+    startString = auth.substring(0,size);
+    if(startString.toLowerCase() == input.toLowerCase()){
+            title =xmlDoc.getElementsByTagName("dc:title")[i].childNodes[0].nodeValue;
+            creator =xmlDoc.getElementsByTagName("dc:creator")[i].childNodes[0].nodeValue;
+            contributor =xmlDoc.getElementsByTagName("dc:contributor")[i].childNodes[0].nodeValue;
+            subject =xmlDoc.getElementsByTagName("dc:subject")[i].childNodes[0].nodeValue;
+            publisher =xmlDoc.getElementsByTagName("dc:publisher")[i].childNodes[0].nodeValue;
+            date =xmlDoc.getElementsByTagName("dc:date")[i].childNodes[0].nodeValue;
+            type =xmlDoc.getElementsByTagName("dc:type")[i].childNodes[0].nodeValue;
+            divText = "<h1>Book metadata for the author is:</h1><br/><table border=1><tr><th>title</th><th>creator</th><th>contributor</th><th>subject</th><th>publisher</th><th>date</th><th>type</th></tr>" + "<tr><td>" + title + "</td><td>" + creator + "</td><td>" + contributor + "</td><td>" + subject + "</td><td>" + publisher + "</td><td>" + date + "</td><td>" + type + "</td></tr>" + "</table>";
+            break;
+    }
+    else
+    {
+        divText="<h2>The book does not exist.</h2>";
+    }
+}
+document.getElementById("results_creator").innerHTML=divText;
+}
+//Searching by Subject.
+function subject_search()
+{
+
+xmlDoc = ConnectXML("Database.xml");
+var x= xmlDoc.getElementsByTagName("dc:subject");
+var input = document.getElementById("input3").value;
+var size =input.length;
+if(input == null || input == ""){
+    document.getElementById("results_subject").innerHTML="Please enter a charachter or a name";
+    return false;
+}
+
+for( i=0; i<x.length; i++)
+{
+    sub =xmlDoc.getElementsByTagName("dc:subject")[i].childNodes[0].nodeValue
+    startString = sub.substring(0,size);
+    if(startString.toLowerCase() == input.toLowerCase()){
+            title =xmlDoc.getElementsByTagName("dc:title")[i].childNodes[0].nodeValue;
+            creator =xmlDoc.getElementsByTagName("dc:creator")[i].childNodes[0].nodeValue;
+            contributor =xmlDoc.getElementsByTagName("dc:contributor")[i].childNodes[0].nodeValue;
+            subject =xmlDoc.getElementsByTagName("dc:subject")[i].childNodes[0].nodeValue;
+            publisher =xmlDoc.getElementsByTagName("dc:publisher")[i].childNodes[0].nodeValue;
+            date =xmlDoc.getElementsByTagName("dc:date")[i].childNodes[0].nodeValue;
+            type =xmlDoc.getElementsByTagName("dc:type")[i].childNodes[0].nodeValue;
+            divText = "<h1>Book metadata for the subject is:</h1><br/><table border=1><tr><th>title</th><th>creator</th><th>contributor</th><th>subject</th><th>publisher</th><th>date</th><th>type</th></tr>" + "<tr><td>" + title + "</td><td>" + creator + "</td><td>" + contributor + "</td><td>" + subject + "</td><td>" + publisher + "</td><td>" + date + "</td><td>" + type + "</td></tr>" + "</table>";
+            break;
+    }
+    else
+    {
+        divText="<h2>The book does not exist.</h2>";
+    }
+}
+document.getElementById("results_subject").innerHTML=divText;
+}
+//Search by contributor.
+function contributor_search()
+{
+
+xmlDoc = ConnectXML("Database.xml");
+var x= xmlDoc.getElementsByTagName("dc:contributor");
+var input = document.getElementById("input4").value;
+var size =input.length;
+if(input == null || input == ""){
+    document.getElementById("results_contributor").innerHTML="Please enter a charachter or a name";
+    return false;
+}
+
+for( i=0; i<x.length; i++)
+{
+    con =xmlDoc.getElementsByTagName("dc:contributor")[i].childNodes[0].nodeValue
+    startString = con.substring(0,size);
+    if(startString.toLowerCase() == input.toLowerCase()){
+            title =xmlDoc.getElementsByTagName("dc:title")[i].childNodes[0].nodeValue;
+            creator =xmlDoc.getElementsByTagName("dc:creator")[i].childNodes[0].nodeValue;
+            contributor =xmlDoc.getElementsByTagName("dc:contributor")[i].childNodes[0].nodeValue;
+            subject =xmlDoc.getElementsByTagName("dc:subject")[i].childNodes[0].nodeValue;
+            publisher =xmlDoc.getElementsByTagName("dc:publisher")[i].childNodes[0].nodeValue;
+            date =xmlDoc.getElementsByTagName("dc:date")[i].childNodes[0].nodeValue;
+            type =xmlDoc.getElementsByTagName("dc:type")[i].childNodes[0].nodeValue;
+            divText = "<h1>Book metadata for the contributor is:</h1><br/><table border=1><tr><th>title</th><th>creator</th><th>contributor</th><th>subject</th><th>publisher</th><th>date</th><th>type</th></tr>" + "<tr><td>" + title + "</td><td>" + creator + "</td><td>" + contributor + "</td><td>" + subject + "</td><td>" + publisher + "</td><td>" + date + "</td><td>" + type + "</td></tr>" + "</table>";
+            break;
+    }
+    else
+    {
+        divText="<h2>The book does not exist.</h2>";
+    }
+}
+document.getElementById("results_contributor").innerHTML=divText;
+}
+//Search by publisher.
+function publisher_search()
+{
+
+xmlDoc = ConnectXML("Database.xml");
+var x= xmlDoc.getElementsByTagName("dc:publisher");
+var input = document.getElementById("input5").value;
+var size =input.length;
+if(input == null || input == ""){
+    document.getElementById("results_publisher").innerHTML="Please enter a charachter or a name";
+    return false;
+}
+
+for( i=0; i<x.length; i++)
+{
+    pub =xmlDoc.getElementsByTagName("dc:publisher")[i].childNodes[0].nodeValue
+    startString = pub.substring(0,size);
+    if(startString.toLowerCase() == input.toLowerCase()){
+            title =xmlDoc.getElementsByTagName("dc:title")[i].childNodes[0].nodeValue;
+            creator =xmlDoc.getElementsByTagName("dc:creator")[i].childNodes[0].nodeValue;
+            contributor =xmlDoc.getElementsByTagName("dc:contributor")[i].childNodes[0].nodeValue;
+            subject =xmlDoc.getElementsByTagName("dc:subject")[i].childNodes[0].nodeValue;
+            publisher =xmlDoc.getElementsByTagName("dc:publisher")[i].childNodes[0].nodeValue;
+            date =xmlDoc.getElementsByTagName("dc:date")[i].childNodes[0].nodeValue;
+            type =xmlDoc.getElementsByTagName("dc:type")[i].childNodes[0].nodeValue;
+            divText = "<h1>Book metadata for that publisher is:</h1><br/><table border=1><tr><th>title</th><th>creator</th><th>contributor</th><th>subject</th><th>publisher</th><th>date</th><th>type</th></tr>" + "<tr><td>" + title + "</td><td>" + creator + "</td><td>" + contributor + "</td><td>" + subject + "</td><td>" + publisher + "</td><td>" + date + "</td><td>" + type + "</td></tr>" + "</table>";
+            break;
+    }
+    else
+    {
+        divText="<h2>The book does not exist.</h2>";
+    }
+}
+document.getElementById("results_publisher").innerHTML=divText;
+}
+
+//Search by date.
+function date_search()
+{
+
+xmlDoc = ConnectXML("Database.xml");
+var x= xmlDoc.getElementsByTagName("dc:date");
+var input = document.getElementById("input6").value;
+var size =input.length;
+if(input == null || input == ""){
+    document.getElementById("results_date").innerHTML="Please enter a charachter or a name";
+    return false;
+}
+
+for( i=0; i<x.length; i++)
+{
+    dat =xmlDoc.getElementsByTagName("dc:date")[i].childNodes[0].nodeValue
+    startString = dat.substring(0,size);
+    if(startString.toLowerCase() == input.toLowerCase()){
+            title =xmlDoc.getElementsByTagName("dc:title")[i].childNodes[0].nodeValue;
+            creator =xmlDoc.getElementsByTagName("dc:creator")[i].childNodes[0].nodeValue;
+            contributor =xmlDoc.getElementsByTagName("dc:contributor")[i].childNodes[0].nodeValue;
+            subject =xmlDoc.getElementsByTagName("dc:subject")[i].childNodes[0].nodeValue;
+            publisher =xmlDoc.getElementsByTagName("dc:publisher")[i].childNodes[0].nodeValue;
+            date =xmlDoc.getElementsByTagName("dc:date")[i].childNodes[0].nodeValue;
+            type =xmlDoc.getElementsByTagName("dc:type")[i].childNodes[0].nodeValue;
+            divText = "<h1>Book metadata for that date is:</h1><br/><table border=1><tr><th>title</th><th>creator</th><th>contributor</th><th>subject</th><th>publisher</th><th>date</th><th>type</th></tr>" + "<tr><td>" + title + "</td><td>" + creator + "</td><td>" + contributor + "</td><td>" + subject + "</td><td>" + publisher + "</td><td>" + date + "</td><td>" + type + "</td></tr>" + "</table>";
+            break;
+    }
+    else
+    {
+        divText="<h2>The book does not exist.</h2>";
+    }
+}
+document.getElementById("results_date").innerHTML=divText;
+}
+
+</script>
+
+</head>
+
+<body>
+Title: <input type="text" name="title" id="input1">
+<br/>
+<input type="submit" value="Search title" onClick="title_search()">
+<br/>
+<br/>
+
+Author: <input type="text" name="author" id="input2">
+<br/>
+<input type="submit" value="Search Author" onClick="creator_search()">
+<br/>
+<br/>
+
+Subject: <input type="text" name="subject" id="input3">
+<br/>
+<input type="submit" value="Search Subject" onClick="subject_search()">
+<br/>
+<br/>
+
+Contributor: <input type="text" name="subject" id="input4">
+<br/>
+<input type="submit" value="Search Contributor" onClick="contributor_search()">
+<br/>
+<br/>
+
+Publisher: <input type="text" name="subject" id="input5">
+<br/>
+<input type="submit" value="Search Publisher" onClick="publisher_search()">
+<br/>
+<br/>
+
+Date: <input type="text" name="subject" id="input6">
+<br/>
+<input type="submit" value="Search Date" onClick="date_search()">
+<br/>
+<br/>
+
+<div id="results_title">
+</div>
+
+<div id="results_creator">
+</div>
+
+<div id="results_subject">
+</div>
+
+<div id="results_contributor">
+</div>
+
+<div id="results_publisher">
+</div>
+
+<div id="results_date">
+</div>
+
+</body>
+</html>
