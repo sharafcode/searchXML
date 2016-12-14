@@ -1,0 +1,836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF SYSTEM "http://purl.org/dc/schemas/dcmes-xml-20000714.dtd">
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc ="http://purl.org/dc/elements/1.1/">
+<rdf:Description about="http://foo.edu/dl/report-1">
+<?xml-stylesheet type="text/xsl" href="print.xsl" ?>
+
+
+
+<bookslibrary>
+
+  <book category="Physics">
+			<dc:title      >Thermodynamics, statistical thermodynamics and kinetics             </dc:title>
+			<dc:creator    >Engel, Thomas                                                       </dc:creator>
+			<dc:contributor>Reid, Philip                                                        </dc:contributor>
+			<dc:subject    >Statistical thermodynamics                                          </dc:subject>
+			<dc:publisher  >Prentice Hall                                                       </dc:publisher>
+			<dc:date       >2010                                                                </dc:date>
+			<dc:type       >Hardcover                                                           </dc:type>
+			<dc:format     >29 cm - 602 p                                                       </dc:format>
+			<dc:identifier >"0030417619"[ISBN-10]                                               </dc:identifier>
+		    <dc:identifier >"978-0321766182"[ISBN-13]                                           </dc:identifier>
+			<dc:language   >en                                                                  </dc:language>
+   </book>
+
+  
+  
+   <book category="Business and Money">
+			<dc:title      >Practical Business Math Procedures                                 </dc:title>
+			<dc:creator    >Jeffrey Slater                                                     </dc:creator>
+			<dc:subject    >Business mathematics / Problems, exercises, etc.                   </dc:subject>
+			<dc:publisher  >McGraw-Hill/Irwin                                                  </dc:publisher>
+			<dc:contributor>Sharon Wittry                                                      </dc:contributor>
+			<dc:date       >January 22, 2013                                                   </dc:date>
+			<dc:type       >Paperback t                                                        </dc:type>
+			<dc:format     >9 x 1.1 x 11.7 inches - 3.9 pounds                                 </dc:format>
+			<dc:identifier >"007770150X"[ISBN-10]                                              </dc:identifier>
+			<dc:identifier >"978-0077701505"[ISBN-13]                                          </dc:identifier>
+			<dc:language   >en           													   </dc:language>
+  </book>
+  
+  
+  
+   <book category="Mathematics">
+			<dc:title      >Discrete mathematical structures                                   </dc:title>
+			<dc:creator    >Bernard Kolman                                                     </dc:creator>
+			<dc:subject    >Computer science / mathematics                                     </dc:subject>
+			<dc:publisher  >Prentice Hall                                                      </dc:publisher>
+			<dc:contributor>Robert Busby                                                       </dc:contributor>
+			<dc:date       >July 24, 2008            	                                       </dc:date>
+			<dc:type       >HardCover text             			                               </dc:type>
+			<dc:format     > 8.2 x 1 x 10.1 inches 2.5 pounds                                  </dc:format>
+			<dc:identifier >"0132297515"[ISBN-10]                                              </dc:identifier>
+			<dc:identifier >"978-0132297516"[ISBN-13]                                          </dc:identifier>
+			<dc:language   >en                                                                 </dc:language>
+  </book>
+  
+  
+   <book category="Schools and Teaching">
+			<dc:title      >A practical approach to using learning styles in math instruction  </dc:title>
+			<dc:creator    >Ruby Bostick Midkiff             								   </dc:creator>
+			<dc:subject    >Psychology of Learning             								   </dc:subject>
+			<dc:publisher  >C.C. Thomas             								           </dc:publisher>
+			<dc:contributor>Rebecca Davis Thomasson          							       </dc:contributor>
+			<dc:date       >October 1, 1996            										   </dc:date>
+			<dc:type       >Paperback             											   </dc:type>
+			<dc:format     >0.5 x 7.2 x 10.2 inches  12 ounces                                 </dc:format>
+			<dc:identifier >"0398062897"[ISBN-10]                                              </dc:identifier>
+			<dc:identifier >"978-0398062897"[ISBN-13]                                          </dc:identifier>			
+			<dc:language   >en                                                                 </dc:language>
+		
+  </book>
+  
+  
+  <book category="Mathematics">
+			<dc:title      >Exploring calculus with Analyzer                                   </dc:title>
+			<dc:creator    >Richard Sours            								           </dc:creator>
+			<dc:subject    >	Calculus / Data processing             						   </dc:subject>
+			<dc:publisher  >Addison-Wesley Pub. Co            								   </dc:publisher>
+			<dc:date       >April 1993           										       </dc:date>
+			<dc:type       >Paperback             											   </dc:type>
+			<dc:format     >1.1 pounds                                 						   </dc:format>
+			<dc:identifier >"0201527731"[ISBN-10]                                              </dc:identifier>
+			<dc:identifier >"978-0201527735"[ISBN-13]                                          </dc:identifier>			
+			<dc:language   >en                                                                 </dc:language>
+		
+  </book>
+  
+  
+  <book category="College and High School">
+			<dc:title      >Cracking the SAT 2014  </dc:title>  
+			<dc:creator    >Princeton Review            								       </dc:creator>
+			<dc:subject    >Study guides            								           </dc:subject>
+			<dc:publisher  >Random House,          								               </dc:publisher>
+			<dc:date       >June 4, 2013            										   </dc:date>
+			<dc:type       >Paperback             											   </dc:type>
+			<dc:format     > 8.4 x 1.8 x 10.8 inches  2.7 pounds                               </dc:format>
+			<dc:identifier >"0307945618"[ISBN-10]                                              </dc:identifier>
+			<dc:identifier >"978-0307945617"[ISBN-13]                                          </dc:identifier>			
+			<dc:language   >en                                                                 </dc:language>
+		
+  </book>
+  
+  
+  <book category="Mathematics">
+			<dc:title      >Fractals for the classroom : strategic activities                  </dc:title>
+			<dc:creator    >Heinz-Otto Peitgen            								       </dc:creator>
+			<dc:subject    >Fractals            								               </dc:subject>
+			<dc:publisher  >Springer-Verlag             								       </dc:publisher>
+			<dc:contributor>Hartmut Jürgens          							               </dc:contributor>
+			<dc:contributor>Dietmar Saupe          							                   </dc:contributor>
+			<dc:contributor>Evan Maletsky          							                   </dc:contributor>
+			<dc:contributor>Terry Perciante         							               </dc:contributor>
+			<dc:contributor>Lee Yunker          							                   </dc:contributor>
+			<dc:date       >December 31, 2008            									   </dc:date>
+			<dc:type       >Paperback             											   </dc:type>
+			<dc:format     >8.2 x 0.5 x 11 inches  10.4 ounces                                 </dc:format>
+			<dc:identifier >"0387975543"[ISBN-10]                                              </dc:identifier>
+			<dc:identifier >"978-0387975542"[ISBN-13]                                          </dc:identifier>			
+			<dc:language   >en                                                                 </dc:language>
+		
+  </book>
+  
+  
+  <book category="Schools and Teaching">
+			<dc:title      >Differentiating Math Instruction, K-8: Common Core Mathematics in the 21st Century Classroom  </dc:title>
+			<dc:creator    >William N. Bender             								                                  </dc:creator>
+			<dc:publisher  >corwin             								                                              </dc:publisher>
+			<dc:date       >September 11, 2013            										                          </dc:date>
+			<dc:type       >Paperback             											                              </dc:type>
+			<dc:format     >0.8 x 7 x 10 inches  1.4 pounds                                                               </dc:format>
+			<dc:identifier >"1452255458"[ISBN-10]                                                                         </dc:identifier>
+			<dc:identifier >"978-1452255453"[ISBN-13]                                                                     </dc:identifier>			
+			<dc:language   >en                                                                                            </dc:language>
+		
+  </book>
+  
+  
+  <book category="Family Relationships">
+			<dc:title      >Experiences in math for young children                             </dc:title>
+			<dc:creator    >Rosalind Charlesworth             								   </dc:creator>
+			<dc:subject    >Mathematics / Study and teaching Preschool           			   </dc:subject>
+			<dc:publisher  >Delmar Publishers            								       </dc:publisher>
+			<dc:date       >January 1, 2011           										   </dc:date>
+			<dc:type       >Paperback             											   </dc:type>
+			<dc:format     >0.8 x 7.2 x 9 inches  1.7 pounds                                   </dc:format>
+			<dc:identifier >"1111301506"[ISBN-10]                                              </dc:identifier>
+			<dc:identifier >"978-1111301507"[ISBN-13]                                          </dc:identifier>			
+			<dc:language   >en                                                                 </dc:language>
+		
+  </book>
+  
+  
+  <book category="Medicine and Health Sciences">
+			<dc:title      >The Nurse, The Math, The Meds: Drug Calculations Using Dimensional Analysis    </dc:title>
+			<dc:creator    >Joyce L. Mulholland M            								               </dc:creator>
+			<dc:subject    >Drug Administration Routes - / Programmed Instruction.              		   </dc:subject>
+			<dc:publisher  >Elsevier/Mosby             								                       </dc:publisher>
+			<dc:date       >January 4, 2011            										               </dc:date>
+			<dc:type       >Paperback             											               </dc:type>
+			<dc:format     >10.9 x 8.4 x 1.1 inches  2.8 pounds                                            </dc:format>
+			<dc:identifier >"0323069045"[ISBN-10]                                                          </dc:identifier>
+			<dc:identifier >"978-0323069045"[ISBN-13]                                                      </dc:identifier>			
+			<dc:language   >en                                                                             </dc:language>
+		
+  </book>
+  
+  
+  
+  <book category="Mathematics">
+			<dc:title      >Discrete mathematics for computer science                                      </dc:title>   
+			<dc:creator    >Bogart, Kenneth P            								                   </dc:creator>
+			<dc:subject    >Computer science / Mathematics          			                           </dc:subject>
+			<dc:publisher  >Key College Pub            								                       </dc:publisher>
+			<dc:contributor>Stein, Clifford        							                               </dc:contributor>
+			<dc:date       >2006           										                           </dc:date>
+			<dc:type       >Paperback             											               </dc:type>
+			<dc:format     > 7.3 x 1 x 9 inches  1.7 pounds                                                </dc:format>
+			<dc:identifier >"0132122715"[ISBN-10]                                                          </dc:identifier>
+			<dc:identifier >"978-0132122719"[ISBN-13]                                                      </dc:identifier>			
+			<dc:language   >en                                                                             </dc:language>
+		
+  </book>
+  
+  
+  
+  <book category="Earth Sciences">
+			<dc:title      >Environmental Geology Today                                                    </dc:title>
+			<dc:creator    >Robert L McConnell            								                   </dc:creator>
+			<dc:subject    >Environmental Geology            								               </dc:subject>
+			<dc:publisher  >Jones and Bartlett Learning          								           </dc:publisher>
+			<dc:contributor>Abel, Daniel C          							                           </dc:contributor>
+			<dc:date       >September 20, 2013           										           </dc:date>
+			<dc:type       >Paperback             											               </dc:type>
+			<dc:format     >8.6 x 1.1 x 10.8 inches  3.4 pounds                                            </dc:format>
+			<dc:identifier >"1449684874"[ISBN-10]                                                          </dc:identifier>
+			<dc:identifier >"978-1449684877"[ISBN-13]                                                      </dc:identifier>			
+			<dc:language   >en                                                                             </dc:language>
+		
+  </book>
+  
+  
+  
+  <book category="Mathematics">
+			<dc:title      >Functional programming : application and implementation            </dc:title>
+			<dc:creator    >Peter Henderson             								       </dc:creator>
+			<dc:subject    >Computer Programming             								   </dc:subject>
+			<dc:publisher  >Prentice-Hall International            							   </dc:publisher>
+			<dc:date       >June 1980           										       </dc:date>
+			<dc:type       >HardCover           										 	   </dc:type>
+			<dc:format     >9.1 x 6 x 1 inches  1.4 pounds                                     </dc:format>
+			<dc:identifier >"0133315797"[ISBN-10]                                              </dc:identifier>
+			<dc:identifier >"978-0133315790"[ISBN-13]                                          </dc:identifier>			
+			<dc:language   >en                                                                 </dc:language>
+		
+  </book>
+  
+  
+  
+  <book category="Mathematics">
+			<dc:title      >Symbolic Math Toolbox : For Use with MATLAB                        </dc:title>
+			<dc:creator    >Chen, Denise             								           </dc:creator>
+			<dc:subject    >Psychology of Learning             								   </dc:subject>
+			<dc:publisher  >Math Works           								               </dc:publisher>
+			<dc:date       >1995            										           </dc:date>
+			<dc:type       >pdf             											       </dc:type>
+			<dc:format     >text 200 pages                                                     </dc:format>			
+			<dc:language   >en                                                                 </dc:language>
+		
+  </book>
+  
+  
+  
+  
+  <book category="Mathematics">
+			<dc:title      >Post-Quantum Cryptography                                          </dc:title>
+			<dc:creator    >Daniel J. Bernstein             								   </dc:creator>
+			<dc:subject    >Cryptographie             								           </dc:subject>
+			<dc:publisher  >Springer             								               </dc:publisher>
+			<dc:contributor>Johannes Buchmann          							               </dc:contributor>
+			<dc:date       >November 17, 2008           									   </dc:date>
+			<dc:type       >Paperback             											   </dc:type>
+			<dc:format     >6.1 x 0.6 x 9.2 inches  1.2 pounds                                 </dc:format>
+			<dc:identifier >"3540887016"[ISBN-10]                                              </dc:identifier>
+			<dc:identifier >"978-3540887010"[ISBN-13]                                          </dc:identifier>			
+			<dc:language   >en                                                                 </dc:language>
+		
+  </book>
+  
+  
+  
+  <book category="Mathematics">
+			<dc:title      >Math Linear Programming With Fortran                               </dc:title>
+			<dc:creator    >Wolfe ,Carrel S           								           </dc:creator>
+			<dc:subject    >Computer Science             								       </dc:subject>
+			<dc:publisher  >Scott Foresman and Company             							   </dc:publisher>
+			<dc:contributor>Rebecca Davis Thomasson          							       </dc:contributor>
+			<dc:date       >1973           										               </dc:date>
+			<dc:type       >Paperback             											   </dc:type>
+			<dc:format     >26 cm 231p                                                         </dc:format>		
+			<dc:language   >en                                                                 </dc:language>
+		
+  </book>
+  
+  
+  
+  <book category="Programming">
+			<dc:title      >Object-Oriented Graphics Programming in C++  </dc:title>
+			<dc:creator    >Roger T. Stevens              								         </dc:creator>
+			<dc:subject    >Computer graphics             								         </dc:subject>
+			<dc:publisher  >AP Professional            								             </dc:publisher>
+			<dc:date       >April 1994            										         </dc:date>
+			<dc:type       >Paperback             										  	     </dc:type>
+			<dc:format     > 1 x 7.5 x 9.2 inches  1.9 pounds                                    </dc:format>
+			<dc:identifier >"0126683182"[ISBN-10]                                                </dc:identifier>
+			<dc:identifier >"978-0126683189"[ISBN-13]                                            </dc:identifier>			
+			<dc:language   >en                                                                   </dc:language>
+		
+  </book>
+  
+ 
+  
+  <book category="Discrete Mathematics">
+			<dc:title      >Combinatorics for Computer Science  </dc:title>
+			<dc:creator    >S. Gill Williamson            								        </dc:creator>
+			<dc:subject    >Combinatorial analysis            								    </dc:subject>
+			<dc:publisher  >Computer Science Press             								    </dc:publisher>
+			<dc:date       >September 1985            										    </dc:date>
+			<dc:type       >HardCover             											    </dc:type>
+			<dc:format     >8.8 x 6 x 1.4 inches  2 pounds                                      </dc:format>
+			<dc:identifier >"0881750204"[ISBN-10]                                               </dc:identifier>
+			<dc:identifier >"978-0881750201"[ISBN-13]                                           </dc:identifier>			
+			<dc:language   >en                                                                  </dc:language>
+		 
+  </book>
+  
+   
+  
+  <book category="Computer Science">
+			<dc:title      >Neural network and fuzzy logic applications in C/C++                 </dc:title>
+			<dc:creator    >Stephen T. Welstead            								         </dc:creator>
+			<dc:subject    >Fuzzy systems            								             </dc:subject>
+			<dc:publisher  >Wiley             								                     </dc:publisher>
+			<dc:date       >June 1994            										         </dc:date>
+			<dc:type       >Paperback             											     </dc:type>
+			<dc:format     > 7.5 x 1 x 9.2 inches   1.9 pounds                                   </dc:format>
+			<dc:identifier >"0471309753"[ISBN-10]                                                </dc:identifier>
+			<dc:identifier >"978-0471309758"[ISBN-13]                                            </dc:identifier>			
+			<dc:language   >en                                                                   </dc:language>
+		
+  </book>
+  
+  
+  
+  <book category="Computer Science">
+			<dc:title      >Fuzzy and Neuro-Fuzzy Intelligent Systems                           </dc:title>
+			<dc:creator    >Ernest Czogala             								            </dc:creator>
+			<dc:subject    >Intelligent control systems            							    </dc:subject>
+			<dc:publisher  >Physica-Verlag            								            </dc:publisher>
+			<dc:contributor>Jacek Leski           							                    </dc:contributor>
+			<dc:date       >April 6, 2000            										    </dc:date>
+			<dc:type       >Paperback             											    </dc:type>
+			<dc:format     >6.1 x 0.5 x 9.2 inches  11.7 ounces                                 </dc:format>
+			<dc:identifier >"3662003899"[ISBN-10]                                               </dc:identifier>
+			<dc:identifier >"978-3662003893"[ISBN-13]                                           </dc:identifier>			
+			<dc:language   >en                                                                  </dc:language>
+		 
+  </book>
+  
+  
+  
+  <book category="Computer Science">
+			<dc:title      >Signal and image processing with neural networks : a C++ sourcebook   </dc:title>
+			<dc:creator    >Timothy Masters             								          </dc:creator>
+			<dc:subject    >Signal processing / Digital techniques             					  </dc:subject>
+			<dc:publisher  >J. Wiley             								                  </dc:publisher>
+			<dc:date       >July 25, 1994            										      </dc:date>
+			<dc:type       >Paperback             											      </dc:type>
+			<dc:format     >7.4 x 0.9 x 9.2 inches  1.6 pounds                                    </dc:format>
+			<dc:identifier >"0471049638"[ISBN-10]                                                 </dc:identifier>
+			<dc:identifier >"978-0471049630"[ISBN-13]                                             </dc:identifier>			
+			<dc:language   >en                                                                    </dc:language>
+		
+  </book>
+  
+  
+  
+  <book category="Mathematics">
+			<dc:title      >Invitation to discrete mathematic                                   </dc:title>
+			<dc:creator    >Jiri Matousek             								            </dc:creator>
+			<dc:subject    >Mathematics            								                </dc:subject>
+			<dc:publisher  >Oxford University Press             								</dc:publisher>
+			<dc:contributor>Jaroslav Nesetril         							                </dc:contributor>
+			<dc:date       >December 15, 2008           										</dc:date>
+			<dc:type       >Paperback             											    </dc:type>
+			<dc:format     >9.1 x 0.9 x 6.2 inches  1.5 pounds                                  </dc:format>
+			<dc:identifier >"0398062897"[ISBN-10]                                               </dc:identifier>
+			<dc:identifier >"978-0398062897"[ISBN-13]                                           </dc:identifier>			
+			<dc:language   >en                                                                  </dc:language>
+		
+  </book>
+  
+  
+  
+  <book category="Security and Encryption">
+			<dc:title      >Firewalls Don't Stop Dragons: A Step-By-Step Guide to Computer Security for Non-Techies   </dc:title>
+			<dc:creator    >Carey Parker            								                                  </dc:creator>
+			<dc:subject    >Viruses             								                             		  </dc:subject>
+			<dc:publisher  >Wawasee Media             								        					      </dc:publisher>
+			<dc:date       >April 6, 2016            										  					      </dc:date>
+			<dc:type       >Paperback             																	  </dc:type>
+			<dc:format     >7.5 x 0.7 x 9.2 inches  1.6 pounds                           					          </dc:format>
+			<dc:identifier >"0997453605"[ISBN-10]                                        						      </dc:identifier>
+			<dc:identifier >"978-0997453607"[ISBN-13]                                    						      </dc:identifier>			
+			<dc:language   >en                                                               						  </dc:language>
+				
+  </book>
+  
+  
+  <book category="Security and Encryption">
+			<dc:title      >Essential Checkpoint Firewall-1: An Installation, Configuration, and Troubleshooting Guide      </dc:title>
+			<dc:creator    >Dameon D. Welch-Abernathy            								   						    </dc:creator>
+			<dc:subject    >Networks, Protocols and APIs            														    </dc:subject>
+			<dc:publisher  >Pearson Education             								         						    </dc:publisher>
+			<dc:date       >January 15, 2002            										   							</dc:date>
+			<dc:type       >Paperback             											       							</dc:type>
+			<dc:format     >7.3 x 1 x 9.3 inches  1.8 pounds                                      						    </dc:format>
+			<dc:identifier >"0201699508"[ISBN-10]                                                				            </dc:identifier>
+			<dc:identifier >"978-0201699500"[ISBN-13]                                          	  					 	    </dc:identifier>			
+			<dc:language   >en                                                                 	   						    </dc:language>
+		
+  </book>
+  
+  
+  
+  <book category="Security and Encryption">
+			<dc:title      >Identity Theft   												   </dc:title>
+			<dc:creator    >John R. Vacca             								           </dc:creator>
+			<dc:subject    >Networking             								               </dc:subject>
+			<dc:publisher  >Prentice Hall PTR             								       </dc:publisher>
+			<dc:date       >September 12, 2002												   </dc:date>
+			<dc:type       >Paperback             											   </dc:type>
+			<dc:format     >6.9 x 1.4 x 9.2 inches  2.2 pounds                                 </dc:format>
+			<dc:identifier >"0130082759"[ISBN-10]                                              </dc:identifier>
+			<dc:identifier >"978-0130082756"[ISBN-13]                                          </dc:identifier>			
+			<dc:language   >en                                                                 </dc:language>
+		
+  </book>
+  
+  
+  
+  <book category="Security and Encryption">
+			<dc:title      >How Not To Be Hacked: The Definitive Guide for Regular People      </dc:title>
+			<dc:creator    >Mr James J DeLuccia IV             								   </dc:creator>
+			<dc:subject    >Hacking            								                   </dc:subject>
+			<dc:publisher  >James DeLuccia         								               </dc:publisher>
+			<dc:date       >May 7, 2015            										       </dc:date>
+			<dc:type       >Paperback             											   </dc:type>
+			<dc:format     >6 x 0.4 x 9 inches  10.6 ounces                                    </dc:format>
+			<dc:identifier >"0986379727"[ISBN-10]                                              </dc:identifier>
+			<dc:identifier >"978-0986379727"[ISBN-13]                                          </dc:identifier>			
+			<dc:language   >en                                                                 </dc:language>
+		
+  </book>
+  
+  
+  <book category="Security and Encryption">
+			<dc:title      >Network Security Principles and Practices (CCIE Professional Development)   </dc:title>
+			<dc:creator    >Saadat Malik             								                    </dc:creator>
+			<dc:subject    >Cisco             								                            </dc:subject>
+			<dc:publisher  >Cisco Press             								                    </dc:publisher>
+			<dc:date       >November 25, 2002           										        </dc:date>
+			<dc:type       >Paperback             											   			</dc:type>
+			<dc:format     >7.6 x 2.1 x 9.4 inches  3.2 pounds                                 			</dc:format>
+			<dc:identifier >"1587050250"[ISBN-10]                                              			</dc:identifier>
+			<dc:identifier >"978-1587050251"[ISBN-13]                                         		    </dc:identifier>			
+			<dc:language   >en                                                                			</dc:language>
+		
+  </book>
+  
+  
+  <book category="Programming Languages">
+			<dc:title      >Database Backed Web Sites: The Thinking Person's Guide to Web Publishing  </dc:title>
+			<dc:creator    >Philip Greenspun             								 		      </dc:creator>
+			<dc:subject    >Relational Databases             								          </dc:subject>
+			<dc:publisher  >Ziff-Davis Press             								              </dc:publisher>
+			<dc:date       >January 1, 1997            										          </dc:date>
+			<dc:type       >Paperback             											          </dc:type>
+			<dc:format     >9 x 7.3 x 1 inches  1.7 pounds                                            </dc:format>
+			<dc:identifier >"1562765302"[ISBN-10]                                              		  </dc:identifier>
+			<dc:identifier >"978-1562765309"[ISBN-13]                                          		  </dc:identifier>			
+			<dc:language   >en                                                               		  </dc:language>
+			
+  </book>
+  
+  
+  
+  <book category="Programming Languages">
+			<dc:title      >Ruby on Rails Tutorial: Learn Web Development with Rails (4th Edition) (Addison-Wesley Professional Ruby Series)  </dc:title>
+			<dc:creator    >Michael Hartl            								   													      </dc:creator>
+			<dc:subject    >Web Programming             								  													  </dc:subject>
+			<dc:publisher  >Addison-Wesley Professional             								         								  </dc:publisher>
+			<dc:date       >November 17, 2016           																				      </dc:date>
+			<dc:type       >Paperback             																				              </dc:type>
+			<dc:format     >6.9 x 1.7 x 9 inches  2.6 pounds                              						 							  </dc:format>
+			<dc:identifier >"0134598628"[ISBN-10]                                            								                  </dc:identifier>
+			<dc:identifier >"978-0134598628"[ISBN-13]                                     											          </dc:identifier>			
+			<dc:language   >en                                                                 				                                  </dc:language>
+		
+  </book>
+  
+  
+  <book category="Programming Languages">
+			<dc:title      >Analyzing Social Media Networks with NodeXL: Insights from a Connected World  	</dc:title>
+			<dc:creator    >Derek Hansen            								   						</dc:creator>
+			<dc:subject    >Information Theory            								  				    </dc:subject>
+			<dc:publisher  >Morgan Kaufmann          								        			    </dc:publisher>
+			<dc:contributor>Ben Shneiderman          							      					    </dc:contributor>
+			<dc:contributor>Marc A. Smith          							      						    </dc:contributor>
+			<dc:date       >September 10, 2010           											   	    </dc:date>
+			<dc:type       >Paperback             														    </dc:type>
+			<dc:format     >8.5 x 0.7 x 10.9 inches 1.9 pounds                                				</dc:format>
+			<dc:identifier >"9780123822291"[ISBN-10]                                              			</dc:identifier>
+			<dc:identifier >"978-0123822291"[ISBN-13]                                          				</dc:identifier>			
+			<dc:language   >en                                                                 				</dc:language>
+		
+  </book>
+  
+  
+  <book category="Programming Languages">
+			<dc:title      >Incremental Software Architecture: A Method for Saving Failing IT Implementations  </dc:title>
+			<dc:creator    >Michael Bell             								   						   </dc:creator>
+			<dc:subject    >Project Management Software             								   		   </dc:subject>
+			<dc:publisher  >Wiley            								           						   </dc:publisher>
+			<dc:date       >February 1, 2016           										   				   </dc:date>
+			<dc:type       >Paperback             											  			       </dc:type>
+			<dc:format     >7.3 x 1 x 10.3 inches  1.5 pounds                               				   </dc:format>
+			<dc:identifier >"111911764X"[ISBN-10]                                            			       </dc:identifier>
+			<dc:identifier >"978-1119117643"[ISBN-13]                                                          </dc:identifier>			
+			<dc:language   >en                                                                                 </dc:language>
+		
+  </book>
+  
+  
+  
+  <book category="Programming Languages">
+			<dc:title      >Tomes of Delphi: Alogrithm and Data Structure 					   </dc:title>
+			<dc:creator    >Julian Bucknall            								           </dc:creator>
+			<dc:subject    >Data Structures             								       </dc:subject>
+			<dc:publisher  >Wordware Publishing,             								   </dc:publisher>
+			<dc:date       >May 25, 2001           										       </dc:date>
+			<dc:type       >Paperback             											   </dc:type>
+			<dc:format     >7.5 x 1.5 x 9.3 inchess  2.6 pounds                                </dc:format>
+			<dc:identifier >"1556227361"[ISBN-10]                                              </dc:identifier>
+			<dc:identifier >"978-1556227363"[ISBN-13]                                          </dc:identifier>			
+			<dc:language   >en                                                                 </dc:language>
+		
+  </book>
+  
+  
+  
+  <book category="Security and Encryption">
+			<dc:title      >The Smart Girl's Guide to Privacy: Practical Tips for Staying Safe Online  </dc:title>
+			<dc:creator    >Violet Blue             								   				   </dc:creator>
+			<dc:subject    >Privacy and Online Safety             								       </dc:subject>
+			<dc:publisher  >No Starch Press            								           		   </dc:publisher>
+			<dc:date       >August 25, 2015            										  		   </dc:date>
+			<dc:type       >Paperback             											   		   </dc:type>
+			<dc:format     >6 x 0.6 x 9 inches  8.5 ounces                                			   </dc:format>
+			<dc:identifier >"1593276486"[ISBN-10]                                        		       </dc:identifier>
+			<dc:identifier >"978-1593276485"[ISBN-13]                                          	       </dc:identifier>			
+			<dc:language   >en                                                                 		   </dc:language>
+		
+  </book>
+  
+  
+  
+  <book category="Security and Encryption">
+			<dc:title      >Virtual Honeypots: From Botnet Tracking to Intrusion Detection  </dc:title>
+			<dc:creator    >Niels Provos             								   		</dc:creator>
+			<dc:subject    >PNetwork Security             								    </dc:subject>
+			<dc:publisher  >Addison-Wesley Professional             						</dc:publisher>
+			<dc:contributor>Thorsten Holz          							                </dc:contributor>
+			<dc:date       >July 16, 2007           									    </dc:date>
+			<dc:type       >Paperback             											</dc:type>
+			<dc:format     >0.5 x 7.2 x 10.2 inches  12 ounces                              </dc:format>
+			<dc:identifier >"B0054RESLG"[ASIN]                                              </dc:identifier>		
+			<dc:language   >en                                                              </dc:language>
+		
+  </book>
+  
+  
+  <book category="Security and Encryption">
+			<dc:title      >Mobile Forensic Investigations: A Guide to Evidence Collection, Analysis, and Presentation  </dc:title>
+			<dc:creator    >Lee Reiber            								   										</dc:creator>
+			<dc:subject    >Handheld and Mobile Devices             												    </dc:subject>
+			<dc:publisher  >McGraw-Hill Education             								           					</dc:publisher>
+			<dc:date       >February 25, 2016            										   						</dc:date>
+			<dc:type       >Paperback             											   							</dc:type>
+			<dc:format     >7.3 x 1.1 x 9 inches  1.5 pounds                                							</dc:format>
+			<dc:identifier >"0071843639"[ISBN-10]                                            						    </dc:identifier>
+			<dc:identifier >"978-0071843638"[ISBN-13]                                          						    </dc:identifier>			
+			<dc:language   >en                                                                 					        </dc:language>
+		
+  </book>
+  
+  
+  
+  <book category="Security and Encryption">
+			<dc:title      >Windows Performance Analysis Field Guide                           </dc:title>
+			<dc:creator    >Clint Huffman           								           </dc:creator>
+			<dc:subject    >Management Information Systems            						   </dc:subject>
+			<dc:publisher  >Syngress             								               </dc:publisher>
+			<dc:date       >August 26, 2014            										   </dc:date>
+			<dc:type       >Paperback             											   </dc:type>
+			<dc:format     >7.5 x 0.8 x 9.2 inches  1.8 pounds                                 </dc:format>
+			<dc:identifier >"0124167012"[ISBN-10]                                              </dc:identifier>
+			<dc:identifier >"978-0124167018"[ISBN-13]                                          </dc:identifier>			
+			<dc:language   >en                                                                 </dc:language>
+		
+  </book>
+  
+  
+  <book category="Operating Systems">
+			<dc:title      >UNIX User's Handbook  												</dc:title>
+			<dc:creator    >Marty Poniatowski             								        </dc:creator>
+			<dc:subject    >Unix             								                    </dc:subject>
+			<dc:publisher  >Prentice Hall            								            </dc:publisher>
+			<dc:contributor>Martin Poniatowski          							            </dc:contributor>
+			<dc:date       >April 12, 2000            										    </dc:date>
+			<dc:type       >Paperback             											    </dc:type>
+			<dc:format     >9.6 x 7.4 x 2.7 inches  1.6 pounds                                  </dc:format>
+			<dc:identifier >"0130270199"[ISBN-10]                                               </dc:identifier>
+			<dc:identifier >"978-0130270191"[ISBN-13]                                           </dc:identifier>			
+			<dc:language   >en                                                                  </dc:language>
+		
+  </book>
+  
+  
+  <book category="Operating Systems">
+			<dc:title      >Restart Me Up: The Unauthorized, Un-Accurate Oral History of Windows 95  </dc:title>
+			<dc:creator    >Lesley Tsina             								                 </dc:creator>
+			<dc:subject    >Satire             								                         </dc:subject>
+			<dc:publisher  >Devastator Press             								             </dc:publisher>
+			<dc:date       >August 11, 2015            										         </dc:date>
+			<dc:type       >Paperback             											         </dc:type>
+			<dc:format     > 5 x 0.2 x 8 inches  5.5 ounces                                    		 </dc:format>
+			<dc:identifier >"1942099045"[ISBN-10]                                              		 </dc:identifier>
+			<dc:identifier >"978-1942099048"[ISBN-13]                                         		 </dc:identifier>			
+			<dc:language   >en                                                                	 	 </dc:language>
+		
+  </book>
+  
+   
+  <book category="Operating Systems">
+			<dc:title      >Operations Research Applications and Algorithms  					</dc:title>
+			<dc:creator    >Wayne L. Winston             								        </dc:creator>
+			<dc:subject    >Operations Research            								        </dc:subject>
+			<dc:publisher  >Duxbury Press            								            </dc:publisher>
+			<dc:date       >January 13, 1997           										    </dc:date>
+			<dc:type       >Paperback             											    </dc:type>
+			<dc:format     >2.2 x 8.5 x 10.5 inches   5.9 pounds                                </dc:format>
+			<dc:identifier >"0534520200"[ISBN-10]                                               </dc:identifier>
+			<dc:identifier >"978-0534520205"[ISBN-13]                                           </dc:identifier>			
+			<dc:language   >en                                                                  </dc:language>
+		 
+  </book>
+  
+ 
+  
+  <book category="Operating Systems">
+			<dc:title      >iPhoto 6: The Missing Manual 									   </dc:title>
+			<dc:creator    >David Pogue            								               </dc:creator>
+			<dc:subject    >Digital Editing             								       </dc:subject>
+			<dc:publisher  >O'Reilly Media             								           </dc:publisher>
+			<dc:contributor>Derrick Story          							                   </dc:contributor>
+			<dc:date       >April 7, 2006            										   </dc:date>
+			<dc:type       >Paperback             											   </dc:type>
+			<dc:format     >7 x 1 x 9.2 inches  1.8 pounds                                     </dc:format>
+			<dc:identifier >"059652725X"[ISBN-10]                                              </dc:identifier>
+			<dc:identifier >"978-0596527259"[ISBN-13]                                          </dc:identifier>			
+			<dc:language   >en                                                                 </dc:language>
+		
+  </book>
+  
+  
+  
+  <book category="Operating Systems">
+			<dc:title      >Apple Pro Training Series: Final Cut Pro 4                 </dc:title>
+			<dc:creator    >Diana Weynand              								   </dc:creator>
+			<dc:subject    >Film and Television									       </dc:subject>
+			<dc:publisher  >Peachpit Press         								       </dc:publisher>
+			<dc:date       >July 26, 2003           								   </dc:date>
+			<dc:type       >Paperback             									   </dc:type>
+			<dc:format     >7.4 x 1.6 x 9 inches 4 pounds                              </dc:format>
+			<dc:identifier >"0321186494"[ISBN-10]                                      </dc:identifier>
+			<dc:identifier >"978-0321186492"[ISBN-13]                                  </dc:identifier>			
+			<dc:language   >en                                                         </dc:language>
+		
+  </book>
+  
+  
+  <book category="Operating Systems">
+			<dc:title      >The Design and Implementation of the FreeBSD Operating System         </dc:title>
+			<dc:creator    >Marshall Kirk McKusick             								      </dc:creator>
+			<dc:subject    >Operating Systems Theory             								  </dc:subject>
+			<dc:publisher  >Addison-Wesley Professional             							  </dc:publisher>
+			<dc:contributor>George V. Neville-Neil          							          </dc:contributor>
+			<dc:contributor>Robert N.M. Watson          							              </dc:contributor>
+			<dc:date       >September 15, 2014            										  </dc:date>
+			<dc:type       >Hardcover             											      </dc:type>
+			<dc:format     >6.4 x 1.4 x 9.3 inches  2.7 pounds                                    </dc:format>
+			<dc:identifier >"0321968972"[ISBN-10]                                                 </dc:identifier>
+			<dc:identifier >"978-0321968975"[ISBN-13]                                             </dc:identifier>			
+			<dc:language   >en                                                                    </dc:language>
+		
+  </book>
+  
+  
+  
+  <book category="Networking and Cloud Computing">
+			<dc:title      >Troubleshooting Windows 2000 TCP/IP                                 </dc:title>
+			<dc:creator    >Syngress             								                </dc:creator>
+			<dc:subject    >Intranets and Extranets             								    </dc:subject>
+			<dc:publisher  >Syngress             								                </dc:publisher>
+			<dc:date       >March 28, 2000           										    </dc:date>
+			<dc:type       >Paperback             											    </dc:type>
+			<dc:format     >0.5 x 7.2 x 10.2 inches  12 ounces                                  </dc:format>
+			<dc:identifier >"B001N2MUFC"[ASIN]                                                  </dc:identifier>		
+			<dc:language   >en                                                                  </dc:language>
+		
+  </book>
+  
+  
+  <book category="Operating Systems">
+			<dc:title      >The Linux Programming Interface: A Linux and UNIX System Programming Handbook  </dc:title>
+			<dc:creator    >Michael Kerrisk            								                       </dc:creator>
+			<dc:subject    >unix             								                               </dc:subject>
+			<dc:publisher  >No Starch Press            								                       </dc:publisher>
+			<dc:contributor>Rebecca Davis Thomasson          							                   </dc:contributor>
+			<dc:date       >October 28, 2010            										           </dc:date>
+			<dc:type       >Paperback             											               </dc:type>
+			<dc:format     > 7 x 2.3 x 9.2 inches   5 pounds                                               </dc:format>
+			<dc:identifier >"1593272200"[ISBN-10]                                                          </dc:identifier>
+			<dc:identifier >"978-1593272203"[ISBN-13]                                                      </dc:identifier>			
+			<dc:language   >en                                                                             </dc:language>
+		
+  </book>
+  
+  
+  
+  <book category="Art">
+			<dc:title      >Modern Masterpieces :One Hundred and Five Famous Paintings           </dc:title>
+			<dc:creator    >Frank Rutter            								             </dc:creator>
+			<dc:subject    >Art             								                     </dc:subject>
+			<dc:publisher  >George Newnes Limited            								     </dc:publisher>
+			<dc:date       >1936           										                 </dc:date>
+			<dc:type       >Paperback images             									     </dc:type>
+			<dc:identifier >"B01FG3Z0IC"[ASIN]                                                   </dc:identifier>			
+		
+  </book>
+  
+  
+  <book category="Databases and Big Data">
+			<dc:title      >Algorithmen für Ingenieure Technische Realisierung mit Excel und VBA  </dc:title>
+			<dc:creator    >Harald Nahrstedt              								          </dc:creator>
+			<dc:subject    >Computer science             								          </dc:subject>
+			<dc:publisher  >Vieweg+Teubner Verlag             								      </dc:publisher>
+			<dc:date       >January 31, 2012            										  </dc:date>
+			<dc:type       >Paperback             											      </dc:type>
+			<dc:format     >6.6 x 0.6 x 9.4 inches  15.5 ounces                                   </dc:format>
+			<dc:identifier >"3834816922"[ISBN-10]                                                 </dc:identifier>
+			<dc:identifier >"978-3834816924"[ISBN-13]                                             </dc:identifier>			
+			<dc:language   >German                                                                </dc:language>
+		
+  </book>
+  
+  
+  
+  <book category="Mathematics">
+			<dc:title      >Mathematik für Informatiker Ein praxisbezogenes Lehrbuch            </dc:title>
+			<dc:creator    >Peter Hartmann            								            </dc:creator>
+			<dc:subject    >Computer science            								        </dc:subject>
+			<dc:publisher  >Vieweg+Teubner Verlag             								    </dc:publisher>
+			<dc:date       >März 2006            										        </dc:date>
+			<dc:type       >Paperback             											    </dc:type>
+			<dc:format     >17 x 2,9 x 25 cm                                                    </dc:format>
+			<dc:identifier >"3834800961"[ISBN-10]                                               </dc:identifier>
+			<dc:identifier >"978-3834800961"[ISBN-13]                                           </dc:identifier>			
+			<dc:language   >Deutsch                                                             </dc:language>
+		
+  </book>
+  
+  
+  <book category="Mathematics">
+			<dc:title      >Imagine Math Between Culture and Mathematics                        </dc:title>
+			<dc:creator    >Michele Emmer           								            </dc:creator>
+			<dc:subject    >Mathematics in Art and Architecture            						</dc:subject>
+			<dc:publisher  >Springer Milan             								            </dc:publisher>
+			<dc:date       >May 27, 2012            										    </dc:date>
+			<dc:type       >HardCover            											    </dc:type>
+			<dc:format     >6.2 x 0.9 x 9.2 inches  12 ounces                                   </dc:format>
+			<dc:identifier >"8847024269"[ISBN-10]                                               </dc:identifier>
+			<dc:identifier >"978-8847024267"[ISBN-13]                                           </dc:identifier>			
+			<dc:language   >en                                                                  </dc:language>
+		
+  </book>
+  
+  
+  <book category="Mathematics">
+			<dc:title      >geoENV VII – Geostatistics for Environmental Applications           </dc:title>
+			<dc:creator    >Peter M. Atkinson             								        </dc:creator>
+			<dc:subject    >Mathematical Applications in Earth Sciences             			</dc:subject>
+			<dc:publisher  >Springer Netherlands            								    </dc:publisher>
+			<dc:contributor>C. D. Lloyd          							                    </dc:contributor>
+			<dc:date       >May 27, 2011           										        </dc:date>
+			<dc:type       >Hardcover             											    </dc:type>
+			<dc:format     >6.2 x 0.9 x 9.4 inches  1.6 pounds                                  </dc:format>
+			<dc:identifier >"9048123216"[ISBN-10]                                               </dc:identifier>
+			<dc:identifier >"978-9048123216"[ISBN-13]                                           </dc:identifier>			
+			<dc:language   >en                                                                  </dc:language>
+		
+  </book>
+  
+  
+  
+  <book category="Engineering">
+			<dc:title      >Mathematical Modeling of Biosensors: An Introduction for Chemists and Mathematicians   </dc:title>
+			<dc:creator    >Romas Baronas             								                               </dc:creator>
+			<dc:subject    >Biochemical Engineering             								                   </dc:subject>
+			<dc:publisher  >Springer Netherland           								                           </dc:publisher>
+			<dc:contributor>Feliksas Ivanauskas          							                               </dc:contributor>
+			<dc:contributor>Juozas Kulys          							                                       </dc:contributor>
+			<dc:date       >December 2, 2009            										                   </dc:date>
+			<dc:type       >Paperback             											                       </dc:type>
+			<dc:format     >6.1 x 0.8 x 9.2 inches  1.4 pounds                                                     </dc:format>
+			<dc:identifier >"9789048132423"[ISBN-10]                                                               </dc:identifier>
+			<dc:identifier >"978-9048132423"[ISBN-13]                                                              </dc:identifier>			
+			<dc:language   >en                                                                                     </dc:language>
+		
+  </book>
+  
+  
+  
+  <book category="Economics">
+			<dc:title      >Geostatistical Applications for Precision Agricultur               </dc:title>
+			<dc:creator    >Margaret A. Oliver              								   </dc:creator>
+			<dc:subject    >Farm economics             								           </dc:subject>
+			<dc:publisher  >Springer Netherlands             								   </dc:publisher>
+			<dc:date       >August 3, 2010            										   </dc:date>
+			<dc:type       >Paperback             											   </dc:type>
+			<dc:format     > 6.3 x 1 x 9.1 inches   1.6 pounds                                 </dc:format>
+			<dc:identifier >"9048191327"[ISBN-10]                                              </dc:identifier>
+			<dc:identifier >"978-9048191321"[ISBN-13]                                          </dc:identifier>			
+			<dc:language   >en                                                                 </dc:language>
+		
+  </book>
+  
+  
+  <book category="Mathematics">
+			<dc:title      >Recent Advances in Computational and Applied Mathematics            </dc:title>
+			<dc:creator    >Theodore E. Simos            								        </dc:creator>
+			<dc:subject    >Computational Science and Engineering             					</dc:subject>
+			<dc:publisher  >Springer Netherlands             								    </dc:publisher>
+			<dc:date       >October 13, 2010          										    </dc:date>
+			<dc:type       >Paperback             											    </dc:type>
+			<dc:format     > 6.4 x 0.9 x 9.4 inches  1.6 pounds                                 </dc:format>
+			<dc:identifier >"9048199808"[ISBN-10]                                               </dc:identifier>
+			<dc:identifier >"978-9048199808"[ISBN-13]                                           </dc:identifier>			
+			<dc:language   >en                                                                  </dc:language>
+		
+  </book>
+  
+</bookslibrary>
+
+</rdf:Description>
+</rdf:RDF>
