@@ -46,7 +46,7 @@ for(i=0; i<x.length; i++){
         }
     }
 }
-document.write("<h1>Books' metadata for that title is:</h1>")
+document.write("<h1>Books' metadata for that title is:</h1>");
 for(i=0; i<x.length; i++){
     if(freq[i]!=0){ //Print all the books which have a matched term in the title with the user input (Not sorted frequency).
         title =xmlDoc.getElementsByTagName("dc:title")[i].childNodes[0].nodeValue;
@@ -58,7 +58,7 @@ for(i=0; i<x.length; i++){
             type =xmlDoc.getElementsByTagName("dc:type")[i].childNodes[0].nodeValue;
         document.write("<div>"+"<br/>"+"<table border=1><tr><th>title</th><th>creator</th><th>contributor</th><th>subject</th><th>publisher</th><th>date</th><th>type</th></tr>" 
         + "<tr><td>" + title + "</td><td>" + creator + "</td><td>" + contributor + "</td><td>" + subject + "</td><td>" 
-        + publisher + "</td><td>" + date + "</td><td>" + type + "</td></tr>" + "</table>";"</div>")
+        + publisher + "</td><td>" + date + "</td><td>" + type + "</td></tr>" + "</table></div>");
     }
 }
 }
