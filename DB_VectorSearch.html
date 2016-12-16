@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<script language="JavaScript" type="text/javascript">
+
+function ConnectXML(dname) // Function for opening a XML database file.
+{
+    if (window.XMLHttpRequest)
+    {
+        xhttp= new XMLHttpRequest(); // Connect by httprequest for newest versions of browsers.
+    }
+    else
+    {
+        xhttp= new ActiveXObject("Microsoft.XMLHTTP"); // Connect by httprequest for older versions of browsers.
+    }
+    xhttp.open("GET",dname,false); //Open XML file using the "dname" parameter as source for the DB file.
+    xhttp.send(); //Sending the file data to xhttp object.
+    return xhttp.responseXML; // Returning a xml response.
+}
+
+function title_search()
+{
+xmlDoc = ConnectXML("Database.xml"); //Getting response from the the function.
+var x= xmlDoc.getElementsByTagName("dc:title"); //Assigning all tags with <dc:title>.
+var input = document.getElementById("input1").value; //Get the input from the user.
+if(input == null || input == ""){ //Check if input is not entered.
+    document.getElementById("results_title").innerHTML="Please enter a charachter or a name";
+    return false;
+}
+var str = input.split(" ");
+divText=str;
+var map={};
+for(j=0; j<str.length; j++){
+        map[str[j]]=0; //Intializing all map elemnts with 0 frequency.
+    }
+document.getElementById("results_title").innerHTML=divText; //print the splitted array of strings.
+var freq=[];
+for(i=0; i<x.length; i++){
+    for(k=0; k<str.length; k++){
+        txt=xmlDoc.getElementsByTagName("dc:title")[i].childNodes[0].nodeValue; //Get the title of every book as a string.
+        var tit= txt.split(" "); //split the string into an array "tit"  
+        for(l=0; l<str.length; l++){ //loop through the map words to compare it with every title word.
+            if(tit[k]==map[str[l]])
+                freq[i]+=1;
+        }
+    }
+}
+document.write("<h1>Books' metadata for that title is:</h1>")
+for(i=0; i<x.length; i++){
+    if(freq[i]!=0){ //Print all the books which have a matched term in the title with the user input (Not sorted frequency).
+        title =xmlDoc.getElementsByTagName("dc:title")[i].childNodes[0].nodeValue;
+            creator =xmlDoc.getElementsByTagName("dc:creator")[i].childNodes[0].nodeValue;
+            contributor =xmlDoc.getElementsByTagName("dc:contributor")[i].childNodes[0].nodeValue;
+            subject =xmlDoc.getElementsByTagName("dc:subject")[i].childNodes[0].nodeValue;
+            publisher =xmlDoc.getElementsByTagName("dc:publisher")[i].childNodes[0].nodeValue;
+            date =xmlDoc.getElementsByTagName("dc:date")[i].childNodes[0].nodeValue;
+            type =xmlDoc.getElementsByTagName("dc:type")[i].childNodes[0].nodeValue;
+        document.write("<div>"+"<br/>"+"<table border=1><tr><th>title</th><th>creator</th><th>contributor</th><th>subject</th><th>publisher</th><th>date</th><th>type</th></tr>" 
+        + "<tr><td>" + title + "</td><td>" + creator + "</td><td>" + contributor + "</td><td>" + subject + "</td><td>" 
+        + publisher + "</td><td>" + date + "</td><td>" + type + "</td></tr>" + "</table>";"</div>")
+    }
+}
+}
+</script>
+
+</head>
+
+<body>
+Title: <input type="text" name="title" id="input1">
+<br/>
+<input type="submit" value="Search title" onClick="title_search()">
+<br/>
+<br/>
+<div id="results_title">
+</div>
